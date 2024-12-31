@@ -30,7 +30,7 @@ module.exports.signUp = async (req, res) => {
         
         
         // Creation de l'Url de confirmation
-        const confirmationUrl= `http://localhost:5000/api/user/confirm/${user.confirmationToken}`
+        const confirmationUrl= `https://dzca.onrender.com/api/user/confirm/${user.confirmationToken}`
 
         // Options de l'email
         const mailOptions = {
