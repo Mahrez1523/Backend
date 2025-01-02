@@ -13,7 +13,7 @@ const {checkUser, requireAuth} = require('./midlleware/auth.midlleware')
 
 const cors = require('cors');
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://dzca-site.onrender.com ",
   credentials: true,
   'allowedHeaders': ['sessionId', 'Content-Type','Authorization'],
   'exposedHeaders': ['sessionId'],
